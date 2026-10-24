@@ -1,0 +1,25 @@
+# Build outputs and caches (each Flutter app also has its own .gitignore)
+build/
+.dart_tool/
+.gradle/
+.cxx/
+*.apk
+*.aab
+*.apks
+v2/releases/
+
+# Machine-specific files
+local.properties
+*.iml
+.idea/
+.DS_Store
+Thumbs.db
+
+# Signing keys and secrets (never commit)
+*.jks
+*.keystore
+key.properties
+.env*
+
+# Scratch output from AI sessions
+Claude outputs/

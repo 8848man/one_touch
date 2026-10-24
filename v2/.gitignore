@@ -1,0 +1,11 @@
+# Build outputs (see AGENTS.md "Build rules")
+releases/
+*.apk
+*.aab
+*.apks
+
+# Flutter app build folders are also ignored in app/.gitignore
+app/build/
+
+# Machine-specific Android paths and cached Flutter version
+app/android/local.properties
